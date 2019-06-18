@@ -1,0 +1,68 @@
+﻿@model AdotaPatos.Models.Castracao
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .cor {
+        background: #FF830F;
+    }
+
+    .espaco {
+        padding-top: 32px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+
+<div class="card">
+    <div class="card-header text-white h3 text-center text-white" style="background: #FF830F;">Deletar Evento Castração</div><br />
+    <div class="text-danger h5 text-center">
+        Tem certeza que deseja deletar o Evento?
+        <hr />
+    </div>
+    <div class="container-fluid">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="NomeEvento">Nome do Evento</label>
+                @Html.EditorFor(model => model.NomeEvento, new { htmlAttributes = new { @class = "form-control", @id = "NomeEvento", @type = "text", disabled = "disabled" } })
+
+            </div>
+            <div class="form-group col-md-4">
+                <label for="NomeAnimal">Nome do Animal</label>
+                @Html.EditorFor(model => model.TipoAnimal, new { htmlAttributes = new { @class = "form-control", @id = "NomeAnimal", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Dia">Data</label>
+                @Html.EditorFor(model => model.Dia, new { htmlAttributes = new { @class = "form-control", @id = "Dia", @type = "text", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Sexo">Sexo</label>
+                @Html.EditorFor(model => model.Sexo, new { htmlAttributes = new { @class = "form-control", @id = "Sexo", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Descricao">Descrição</label>
+                @Html.EditorFor(model => model.Descricao, new { htmlAttributes = new { @class = "form-control", @id = "Descricao", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Total">Total de Castrações</label>
+                @Html.EditorFor(model => model.Total, new { htmlAttributes = new { @class = "form-control", @id = "Total", disabled = "disabled" } })
+            </div>
+
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10 " style="margin-left: -15px">
+                    <button type="submit" class="btn cor text-white"> <i class="fa fa-check "></i> Deletar Evento </button>
+                    <a href="/Castracao/Index" class="btn btn-dark text-white"><i class="fa fa-mail-reply "></i> Voltar para Listagem de Eventos</a>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

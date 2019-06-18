@@ -1,0 +1,85 @@
+﻿@model AdotaPatos.Models.Animal
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .cor {
+        background: #FF830F;
+    }
+
+    .espaco {
+        padding-top: 32px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+
+<div class="card">
+    <div class="card-header text-white h3 text-center text-white" style="background: #FF830F;">Detalhes de Animal</div><br />
+    <div class="container-fluid">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="TipoAnimal">Tipo do Animal</label>
+                @Html.EditorFor(model => model.TipoAnimal, new { htmlAttributes = new { @class = "form-control", @id = "TipoAnimal", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="NomeAnimal">Nome do Animal</label>
+                @Html.EditorFor(model => model.NomeAnimal, new { htmlAttributes = new { @class = "form-control", @id = "NomeAnimal", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="NomeVoluntario">Nome do Voluntario</label>
+                @Html.EditorFor(model => model.NomeVoluntario, new { htmlAttributes = new { @class = "form-control", @id = "NomeVoluntario", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="LarTemporario">Lar Temporario</label>
+                @Html.EditorFor(model => model.LarTemporario, new { htmlAttributes = new { @class = "form-control", @id = "LarTemporario", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="DataResgate">Data do Resgate</label>
+                @Html.EditorFor(model => model.DataResgate, new { htmlAttributes = new { @class = "form-control", @id = "DataResgate", @type = "date ", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Sexo">Sexo</label>
+                @Html.EditorFor(model => model.Sexo, new { htmlAttributes = new { @class = "form-control", @id = "Sexo", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Raca">Raça</label>
+                @Html.EditorFor(model => model.Raca, new { htmlAttributes = new { @class = "form-control", @id = "Raca", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Idade">Idade</label>
+                @Html.EditorFor(model => model.Idade, new { htmlAttributes = new { @class = "form-control", @id = "Idade", disabled = "disabled", @type = "text" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="TipoCastrado">Castrado?</label>
+                @Html.EditorFor(model => model.TipoCastrado, new { htmlAttributes = new { @class = "form-control", @id = "TipoCastrado", disabled = "disabled" } })
+            </div>
+            <div class="form-group col-md-4">
+                <label for="ImagemAntes" style="padding-left:115px">Antes</label>
+                <fieldset style="padding-left: 40px">
+                    <img src="~/ImagensAdotaPatos/@Url.Content(@Model.ImagemAntes)" height="200" width="200" />
+                </fieldset>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="ImagemDepois" style="padding-left:115px">Depois</label>
+                <fieldset style="padding-left: 40px">
+                    <img src="~/ImagensAdotaPatos/@Url.Content(@Model.ImagemDepois)" height="200" width="200" />
+                </fieldset>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Descricao">Descrição</label>
+                @Html.TextAreaFor(model => model.Descricao, htmlAttributes: new { @class = "form-control", rows = "8", disabled = "disabled" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10 " style="margin-left: -15px">
+                <a href="@Url.Action("Edit", new { id = Model.AnimalId })" class="btn cor text-white"><i class="fa fa-check"></i> Editar Animal</a>
+                <a href="/Animal/Index" class="btn btn-dark text-white"><i class="fa fa-mail-reply "></i> Voltar para Listagem de Animais</a>
+            </div>
+        </div>
+    </div>
+</div>

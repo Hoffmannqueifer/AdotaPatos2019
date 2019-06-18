@@ -1,0 +1,261 @@
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\AdotaPatos.dll.config
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\AdotaPatos.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\AdotaPatos.pdb
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\csc.exe
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\csc.exe.config
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\csc.rsp
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\csi.exe
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\csi.exe.config
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\csi.rsp
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.AppContext.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Console.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Claims.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\vbc.exe
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\vbc.exe.config
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\vbc.rsp
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Antlr3.Runtime.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Newtonsoft.Json.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Helpers.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Mvc.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Optimization.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Razor.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\WebGrease.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Helpers.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Mvc.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Optimization.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.Razor.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Newtonsoft.Json.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Antlr3.Runtime.pdb
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csproj.CoreCompileInputs.cache
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csproj.CopyComplete
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.pdb
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csprojAssemblyReference.cache
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Dapper.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Dapper.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\AdotaPatos.dll.config
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\AdotaPatos.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\AdotaPatos.pdb
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\csc.exe
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\csc.exe.config
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\csc.rsp
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\csi.exe
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\csi.exe.config
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\csi.rsp
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.AppContext.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Console.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Claims.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\vbc.exe
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\vbc.exe.config
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\vbc.rsp
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Antlr3.Runtime.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Dapper.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Newtonsoft.Json.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Helpers.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Mvc.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Optimization.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Razor.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\WebGrease.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Dapper.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Helpers.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Mvc.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Optimization.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.Razor.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Newtonsoft.Json.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Antlr3.Runtime.pdb
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csprojAssemblyReference.cache
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csproj.CoreCompileInputs.cache
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csproj.CopyComplete
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.pdb
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\BouncyCastle.Crypto.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Google.Protobuf.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\MySql.Data.dll
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\Google.Protobuf.xml
+C:\Users\Gian\Desktop\ProjectEng\AdotaPatos\AdotaPatos\bin\MySql.Data.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csprojAssemblyReference.cache
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csproj.CoreCompileInputs.cache
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.pdb
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\AdotaPatos.dll.config
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\AdotaPatos.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\AdotaPatos.pdb
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\csc.exe
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\csc.exe.config
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\csc.rsp
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\csi.exe
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\csi.exe.config
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\csi.rsp
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.AppContext.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Console.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Claims.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\vbc.exe
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\vbc.exe.config
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\vbc.rsp
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Antlr3.Runtime.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\BouncyCastle.Crypto.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Dapper.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Google.Protobuf.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\MySql.Data.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Newtonsoft.Json.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Helpers.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Mvc.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Optimization.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Razor.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\WebGrease.dll
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Dapper.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Google.Protobuf.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\MySql.Data.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Helpers.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Mvc.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Optimization.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.Razor.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Newtonsoft.Json.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Antlr3.Runtime.pdb
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luís Henrique\AdotaPatos\AdotaPatos\obj\Debug\AdotaPatos.csproj.CopyComplete
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\BouncyCastle.Crypto.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Google.Protobuf.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\MySql.Data.dll
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\Google.Protobuf.xml
+C:\Users\Hoffmann\source\repos\AdotaPatos\AdotaPatos\bin\MySql.Data.xml

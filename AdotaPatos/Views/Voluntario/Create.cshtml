@@ -1,0 +1,310 @@
+﻿@model AdotaPatos.Models.Voluntario
+
+@{
+                /**/
+
+                Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .cor {
+        background: #FF830F;
+    }
+
+    .espaco {
+        padding-top: 32px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+    <div class="card">
+        <div class="card-header  text-white h3 text-center text-white" style="background: #FF830F;">Cadastro de Voluntario</div><br />
+
+        <div class="container-fluid">
+            <div class="form-row" style="margin-left: 45px;">
+                <div class="form-group col-md-4">
+                    <label for="Nome">Nome</label>
+                    <input type="text" class="form-control" id="Nome" name="Nome">
+                    @Html.ValidationMessageFor(Model => Model.Nome, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Naturalidade">Naturalidade</label>
+                    <input type="text" class="form-control" id="Naturalidade" name="Naturalidade">
+                    @Html.ValidationMessageFor(Model => Model.Naturalidade, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Sexo">Sexo</label>
+                    <select class=" form-control col-md-10  " name="Sexo" id="Sexo">
+                        <option value="">Selecione o Sexo</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                    @Html.ValidationMessageFor(Model => Model.Sexo, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="EstadoCivil">Estado Civil</label>
+                    <select class=" form-control col-md-10 " name="EstadoCivil" id="EstadoCivil">
+                        <option value="">Selecione o Estado Civil</option>
+                        <option value="Solteiro">Solteiro(a)</option>
+                        <option value="Casado">Casado(a)</option>
+                        <option value="Sepadado">Separado(a)</option>
+                        <option value="Divorciado">Divorciado(a)</option>
+                        <option value="Viúvo">Viúvo(a)</option>
+                    </select>
+                    @Html.ValidationMessageFor(Model => Model.EstadoCivil, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <strong>@Html.LabelFor(Model => Model.DataNascimento, htmlAttributes: new { @class = "control-label " })</strong>
+                    @Html.EditorFor(Model => Model.DataNascimento, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                    @Html.ValidationMessageFor(Model => Model.DataNascimento, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Rg">Rg</label>
+                    <input type="text" class="form-control" id="Rg" name="Rg">
+                    @Html.ValidationMessageFor(Model => Model.Rg, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Cpf">Cpf</label>
+                    <input type="text" class="form-control" id="Cpf" name="Cpf">
+                    @Html.ValidationMessageFor(Model => Model.Cpf, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Profissao">Profissão</label>
+                    <input type="text" class="form-control" id="Profissao" name="Profissao">
+                    @Html.ValidationMessageFor(Model => Model.Profissao, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Endereco">Endereço</label>
+                    <input type="text" class="form-control" id="Endereco" name="Endereco">
+                    @Html.ValidationMessageFor(Model => Model.Endereco, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Cep">Cep</label>
+                    <input type="text" class="form-control Cep" id="Cep" name="Cep">
+                    @Html.ValidationMessageFor(Model => Model.Cep, "", new { @class = "text-danger Cep" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Cidade">Cidade</label>
+                    <input type="text" class="form-control" id="Cidade" name="Cidade">
+                    @Html.ValidationMessageFor(Model => Model.Cidade, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4 ">
+                    <label for="Uf">Uf </label>
+                    <select class=" form-control col-md-10 " name="Uf" id="Uf">
+                        <option value="">Selecione o Estado</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AM">AM</option>
+                        <option value="AP">AP</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MG">MG</option>
+                        <option value="MS">MS</option>
+                        <option value="MT">MT</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="PR">PR</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SE">SE</option>
+                        <option value="SP">SP</option>
+                        <option value="TO">TO</option>
+                    </select>
+                    @Html.ValidationMessageFor(Model => Model.Uf, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Telefone">telefone</label>
+                    <input type="text" class="form-control" name="Telefone" id="Telefone">
+                    @Html.ValidationMessageFor(Model => Model.Telefone, "", new { @class = "text-danger phone" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Email">E-mail</label>
+                    <input type="text" class="form-control" name="Email" id="Email">
+                    @Html.ValidationMessageFor(Model => Model.Email, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4 ">
+                    <label for="Dia">Dia</label>
+                    <select class=" form-control col-md-10 " name="Dia" id="Dia">
+                        <option value="">Selecione o Dia Disponivel</option>
+                        <option value="Segunda-Feira">Segunda-Feira</option>
+                        <option value="Terça-Feira">Terça-Feira</option>
+                        <option value="Quarta-Feira">Quarta-Feira</option>
+                        <option value="Quinta-Feira">Quinta-Feira</option>
+                        <option value="Sexta-Feira">Sexta-Feira</option>
+                        <option value="Sábado">Sábado</option>
+                        <option value="Domingo">Domingo</option>
+                    </select>
+                    @Html.ValidationMessageFor(Model => Model.Dia, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4 ">
+                    <label for="Turno">Turno</label>
+                    <select class=" form-control col-md-10 " name="Turno" id="Turno">
+                        <option value="">Selecione o Turno Disponivel</option>
+                        <option value="Manha">Manhã</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noite">Noite</option>
+                    </select>
+                    @Html.ValidationMessageFor(Model => Model.Turno, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4 ">
+                    <label for="Doacao">Doação</label>
+                    <select class=" form-control col-md-10 " name="Doacao" id="Doacao">
+                        <option value="">Selecione o Tipo de Doação</option>
+                        <option value="Racao">Ração</option>
+                        <option value="Medicamentos">Medicamentos</option>
+                        <option value="MaterialDeLimpeza">Material De Limpeza</option>
+                        <option value="RoupasOuObjetosBazarRifasBingos">Roupas Ou Objetos para Bazar/Rifas/Bingos</option>
+                        <option value="MateriaisParaUsoDosAnimais">Materiais para uso dos animais</option>
+                        <option value="Dinheiro">Dinheiro</option>
+                        <option value="OutrosComidasEquipamentosTransporte">Outros como comidas, equipamentos, transporte</option>
+                    </select>
+                    @Html.ValidationMessageFor(Model => Model.Doacao, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4 ">
+                    <label for="ServicoAjuda">Serviço</label>
+                    <select class=" form-control col-md-10 " name="ServicoAjuda" id="ServicoAjuda">
+                        <option value="">Selecione o Tipo de Serviço</option>
+                        <option value="Resgate">Resgate</option>
+                        <option value="AcompanhamentoHV">Acompanhamento no HV</option>
+                        <option value="LarTemporario">Lar Temporário</option>
+                        <option value="Canil">Canil</option>
+                        <option value="FeiraAdocao">Feiras de Adoção</option>
+                        <option value="EventosFestivos">Eventos Festivos</option>
+                        <option value="TrasnporteAnimaisCastracao">Transporte de Animais para Castração</option>
+                        <option value="Bazares">Bazares</option>
+                        <option value="VendasRifasCartelas">Vendas de Rifas e Cartelas</option>
+                        <option value="AcompanhamentoAdocaoCastracao">Acompanhamento de Adocao e Castracao</option>
+                        <option value="AcompanhamentoDenunciasMausTratos">Acompanhamento de denuncias de maus tratos</option>
+                        <option value="SetorComunicacaoArteDivulgacaoRedesSociais">Setor de comunicação e arte, divulgação e redes sociais</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                    @Html.ValidationMessageFor(Model => Model.ServicoAjuda, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Observacao">Observações. Ex: dias extras?</label>
+                    @Html.TextAreaFor(model => model.Observacao, htmlAttributes: new { @class = "form-control", rows = "8" })
+                    @Html.ValidationMessageFor(Model => Model.Observacao, "", new { @class = "text-danger" })
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10" style="padding: 20px; margin-left: 30px">
+                    <button type="submit" class="btn cor text-white"> <i class="fa fa-check "></i> Cadastrar Voluntario </button>
+                    <a href="/Voluntario/Index" class="btn btn-dark text-white"><i class="fa fa-mail-reply "></i> Voltar para Listagem de Voluntarios</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    $(document).ready(function () {
+        $('.Cep').mask('00000-000', { reverse: true });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('body').on('focus', '.phone', function () {
+            var maskBehavior = function (val) {
+                return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+            },
+                options = {
+                    onKeyPress: function (val, e, field, options) {
+                        field.mask(maskBehavior.apply({}, arguments), options);
+
+                        if (field[0].value.length >= 14) {
+                            var val = field[0].value.replace(/\D/g, '');
+                            if (/\d\d(\d)\1{7,9}/.test(val)) {
+                                field[0].value = '';
+                                alert('Telefone Invalido');
+                            }
+                        }
+                    }
+                };
+            $(this).mask(maskBehavior, options);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    var message = 'message';
+    var today = new Date();
+    document.getElementById("DataNascimento").value = today.toLocaleDateString("pt-br");
+    document.getElementById("DataAdesao").value = today.toLocaleDateString("pt-br");
+
+    $(document).ready(function () {
+        $("#DataNascimento").datepicker({ dateFormat: 'dd/mm/yyyy' });
+        $("#DataAdesao").datepicker({ dateFormat: 'dd/mm/yyyy' });
+    });
+
+    function validarDatas(frm) {
+        var data_1 = document.getElementById("dataIni").value;
+        var data_2 = document.getElementById("dataFin").value;
+        var Compara01 = data_1.split("/");
+        var Compara02 = data_2.split("/");
+        console.log(Compara01);
+        console.log(Compara02);
+        if ((Compara01 > Compara02)) {
+
+            toastr.error('Data final não pode ser menor que a inicial!', 'Campos obrigatórios: ', {
+                closeButton: true,
+                progressBar: true,
+                debug: false,
+                newestOnTop: false,
+                positionClass: "toast-top-right",
+                preventDuplicates: false,
+                onclick: null,
+                showDuration: "300",
+                hideDuration: "1000",
+                timeOut: "5000",
+                extendedTimeOut: "1000",
+                showEasing: "swing",
+                hideEasing: "linear",
+                showMethod: "fadeIn",
+                hideMethod: "fadeOut",
+            });
+            return false;
+        } else {
+            document.getElementById("msg").innerHTML = "";
+
+        }
+    }
+</script>

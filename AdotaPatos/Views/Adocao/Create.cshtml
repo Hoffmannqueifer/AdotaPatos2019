@@ -1,0 +1,199 @@
+﻿@model AdotaPatos.Models.Adocao
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .cor {
+        background: #FF830F;
+    }
+
+    .espaco {
+        padding-top: 32px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+    <div class="card">
+        <div class="card-header  text-white h3 text-center text-white" style="background: #FF830F;">Cadastro de Adoção</div><br />
+
+        <div class="container-fluid">
+            <div class="form-row" style="margin-left: 45px;">
+                <div class="form-group col-md-4">
+                    <label for="NomeDoAdotante">Nome</label>
+                    <input type="text" class="form-control" id="NomeDoAdotante" name="NomeDoAdotante">
+                    @Html.ValidationMessageFor(Model => Model.NomeDoAdotante, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="RgAdotante">RG</label>
+                    <input type="text" class="form-control" id="RgAdotante" name="RgAdotante">
+                    @Html.ValidationMessageFor(Model => Model.RgAdotante, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="CpfAdotante">CPF</label>
+                    <input type="text" class="form-control" id="CpfAdotante" name="CpfAdotante">
+                    @Html.ValidationMessageFor(Model => Model.CpfAdotante, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="DataAdocao">Data da Adoção</label>
+                    @Html.EditorFor(Model => Model.DataAdocao, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                    @Html.ValidationMessageFor(Model => Model.DataAdocao, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group col-md-4">
+                    <label for="Telefone">Telefone</label>
+                    <input type="text" class="form-control" name="Telefone" id="Telefone">
+                    @Html.ValidationMessageFor(Model => Model.Telefone, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Profissao">Profissão</label>
+                    <input type="text" class="form-control" id="Profissao" name="Profissao">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Logradouro">Logradouro</label>
+                    <input type="text" class="form-control" id="Logradouro" name="Logradouro">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="numero">numero</label>
+                    <input type="text" class="form-control" id="numero" name="numero">
+                </div>
+
+                <div class="form-group col-md-4 ">
+                    <label for="Estado">Estado </label>
+                    <select class=" form-control col-md-10 " name="Estado" id="Estado">
+                        <option value="">Selecione o Estado</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AM">AM</option>
+                        <option value="AP">AP</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MG">MG</option>
+                        <option value="MS">MS</option>
+                        <option value="MT">MT</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="PR">PR</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SE">SE</option>
+                        <option value="SP">SP</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="Cidade">Cidade</label>
+                    <input type="text" class="form-control" id="Cidade" name="Cidade">
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10" style="padding: 20px; margin-left: 30px">
+                    <button type="submit" class="btn cor text-white"> <i class="fa fa-check "></i> Cadastrar Adocão </button>
+                    <a href="/Adocao/Index" class="btn btn-dark text-white"><i class="fa fa-mail-reply "></i> Voltar para Listagem de Adocão</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    $(document).ready(function () {
+        $('.Cep').mask('00000-000', { reverse: true });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('body').on('focus', '.phone', function () {
+            var maskBehavior = function (val) {
+                return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+            },
+                options = {
+                    onKeyPress: function (val, e, field, options) {
+                        field.mask(maskBehavior.apply({}, arguments), options);
+
+                        if (field[0].value.length >= 14) {
+                            var val = field[0].value.replace(/\D/g, '');
+                            if (/\d\d(\d)\1{7,9}/.test(val)) {
+                                field[0].value = '';
+                                alert('Telefone Invalido');
+                            }
+                        }
+                    }
+                };
+            $(this).mask(maskBehavior, options);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    var message = 'message';
+    var today = new Date();
+    document.getElementById("DataAdocao").value = today.toLocaleDateString("pt-br");
+
+
+    $(document).ready(function () {
+        $("#DataAdocao").datepicker({ dateFormat: 'dd/mm/yyyy' });
+
+    });
+
+    function validarDatas(frm) {
+        var data_1 = document.getElementById("dataIni").value;
+        var data_2 = document.getElementById("dataFin").value;
+        var Compara01 = data_1.split("/");
+        var Compara02 = data_2.split("/");
+        console.log(Compara01);
+        console.log(Compara02);
+        if ((Compara01 > Compara02)) {
+
+            toastr.error('Data final não pode ser menor que a inicial!', 'Campos obrigatórios: ', {
+                closeButton: true,
+                progressBar: true,
+                debug: false,
+                newestOnTop: false,
+                positionClass: "toast-top-right",
+                preventDuplicates: false,
+                onclick: null,
+                showDuration: "300",
+                hideDuration: "1000",
+                timeOut: "5000",
+                extendedTimeOut: "1000",
+                showEasing: "swing",
+                hideEasing: "linear",
+                showMethod: "fadeIn",
+                hideMethod: "fadeOut",
+            });
+            return false;
+        } else {
+            document.getElementById("msg").innerHTML = "";
+
+        }
+    }
+</script>

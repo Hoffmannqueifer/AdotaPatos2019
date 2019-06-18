@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adota Patos </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body>
+    <style>
+        .corLaranja {
+            background: #FF830F;
+        }
+
+        .corVerdeAzul {
+            background: #11FFE4;
+        }
+
+        ul a {
+            width: 100px;
+            height: 20px;
+            display: block;
+            text-indent: 3px;
+            display: block;
+            font-weight: bold;
+        }
+    </style>
+    
+
+    <nav class="navbar navbar-dark bg-primary  fixed-top col-md-2">
+        <a class="navbar-brand" href="/Home"><strong>Adota Patos</strong></a>
+        <button class="navbar-toggler corLaranja" type="button" data-toggle="collapse"
+                data-target="#barraelementos " aria-controls="barraelementos" aria-expanded="false" aria-label="toggle navigation" @*style="margin-right: 1100px;"*@>
+            <span class="navbar-toggler-icon corLaranja"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="barraelementos">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active col-md-3" style="margin-left: -16px;">
+                    <a class="nav-item text-white" href="/Usuario/Index">Usuário<span class="sr-only"></span></a><br />
+                    <a class="nav-item text-white" href="/Voluntario/Index">Voluntario<span class="sr-only"></span></a><br />
+                    <a class="nav-item text-white" href="/Animal/Index">Animal<span class="sr-only"></span></a><br />
+                    <a class="nav-item text-white" href="/Adocao/Index">Doação<span class="sr-only"></span></a><br />
+                    <a class="nav-item text-white" href="/Castracao/Index">Castração<span class="sr-only"></span></a><br />
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Adota Patos</p>
+        </footer>
+    </div>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.mask.min.js"></script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

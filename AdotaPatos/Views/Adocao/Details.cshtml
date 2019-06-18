@@ -1,0 +1,162 @@
+﻿@model AdotaPatos.Models.Adocao
+
+@{
+    /**/
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .cor {
+        background: #FF830F;
+    }
+
+    .espaco {
+        padding-top: 32px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+
+<div class="card">
+    <div class="card-header  text-white h3 text-center text-white" style="background: #FF830F;">Detalhes de Adoção</div><br />
+    <div class="container-fluid">
+        <div class="form-row" style="margin-left: 45px;">
+
+            <div class="form-a col-md-4">
+                <label for="NomeDoAdotante">Nome</label>
+                @Html.EditorFor(model => model.NomeDoAdotante, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="RgAdotante">RG</label>
+                @Html.EditorFor(model => model.RgAdotante, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="CpfAdotante">CpfAdotante</label>
+                @Html.EditorFor(model => model.CpfAdotante, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+
+            <div class="form-group col-md-4">
+                <label for="DataAdocao">Data Adoção</label>
+                @*@Html.EditorFor(model => model.DataAdocao, new { htmlAttributes = new { @class = "form-control", @type="text", disabled = "disabled" } })*@
+                <input name="DataAdocao" value="@ViewBag.Data" class="form-control" disabled />
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="Telefone">Telefone</label>
+                @Html.EditorFor(model => model.Telefone, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="Profissao">Profissão</label>
+                @Html.EditorFor(model => model.Profissao, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="Logradouro">Logradouro</label>
+                @Html.EditorFor(model => model.Logradouro, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="numero">Número</label>
+                @Html.EditorFor(model => model.numero, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="Estado">Estado</label>
+                @Html.EditorFor(model => model.Estado, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="Cidade">Cidade</label>
+                @Html.EditorFor(model => model.Cidade, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10" style="padding: 20px; margin-left: 30px">
+                <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn cor text-white"><i class="fa fa-check"></i> Editar Adoção</a>
+                <a href="/Adocao/Index" class="btn btn-dark text-white"><i class="fa fa-mail-reply "></i> Voltar para Listagem de Adoção</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $('body').on('focus', '.phone', function () {
+            var maskBehavior = function (val) {
+                return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+            },
+                options = {
+                    onKeyPress: function (val, e, field, options) {
+                        field.mask(maskBehavior.apply({}, arguments), options);
+
+                        if (field[0].value.length >= 14) {
+                            var val = field[0].value.replace(/\D/g, '');
+                            if (/\d\d(\d)\1{7,9}/.test(val)) {
+                                field[0].value = '';
+                                alert('Telefone Invalido');
+                            }
+                        }
+                    }
+                };
+            $(this).mask(maskBehavior, options);
+        });
+    });
+
+
+</script>
+<script type="text/javascript">
+    var message = 'message';
+    var today = new Date();
+    document.getElementById("DataAdocao").value = today.toLocaleDateString("pt-br");
+
+
+    $(document).ready(function () {
+        $("#DataAdocao").datepicker({ dateFormat: 'dd/mm/yyyy' });
+
+    });
+
+    function validarDatas(frm) {
+        var data_1 = document.getElementById("dataIni").value;
+        var data_2 = document.getElementById("dataFin").value;
+        var Compara01 = data_1.split("/");
+        var Compara02 = data_2.split("/");
+        console.log(Compara01);
+        console.log(Compara02);
+        if ((Compara01 > Compara02)) {
+
+            toastr.error('Data final não pode ser menor que a inicial!', 'Campos obrigatórios: ', {
+                closeButton: true,
+                progressBar: true,
+                debug: false,
+                newestOnTop: false,
+                positionClass: "toast-top-right",
+                preventDuplicates: false,
+                onclick: null,
+                showDuration: "300",
+                hideDuration: "1000",
+                timeOut: "5000",
+                extendedTimeOut: "1000",
+                showEasing: "swing",
+                hideEasing: "linear",
+                showMethod: "fadeIn",
+                hideMethod: "fadeOut",
+            });
+            return false;
+        } else {
+            document.getElementById("msg").innerHTML = "";
+
+        }
+    }
+
+</script>

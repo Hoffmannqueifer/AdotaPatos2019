@@ -1,0 +1,74 @@
+﻿@model IEnumerable<AdotaPatos.Models.Usuario>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<style>
+
+    .cor {
+        background: #FF830F;
+    }
+
+    .espaco {
+        padding-top: 32px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+<div class="card">
+    <div class="panel panel-primary">
+        <div class="card-header h3 cor text-center text-white">
+            Usuários
+            <div class="float-right">
+                <a href="@Url.Action("Create")" class="btn btn-success text-white"> <i class="fa fa-plus"></i> Novo</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <form class="form-inline form-group" method="get">
+                <input class="form-control" type="text" name="nome" placeholder="Pesquisa por nome." style="margin-right: 10px;" required />
+                <button type="submit" id="nome" class="btn btn-primary "><i class=" fa fa-search"> Pesquisar</i> </button>
+                <a href="@Url.Action("Index")" id="limpar" class="btn btn-success text-white" style="margin-left: 10px;"><i class=" fa fa-eraser  "> </i> Limpar Pesquisa </a>
+            </form>
+            <table class="table table-responsive-sm table-bordered table-striped table-sm">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Id)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Login)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cargo)
+                    </th>
+                    <th>Ações</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Login)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cargo)
+                        </td>
+                        <td>
+                            <div class="btn-group-sm">
+                                <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-success text-white"><i class="fa fa-edit "></i> Editar </a>
+
+                                <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-primary text-white"> <i class="fa fa-plus"></i> Detalhes</a>
+                                <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa fa-trash-o "></i> Deletar </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+
