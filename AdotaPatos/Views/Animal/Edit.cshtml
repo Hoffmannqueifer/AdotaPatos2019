@@ -22,7 +22,7 @@
 {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-    @Html.HiddenFor(model => model.AnimalId)
+    @Html.HiddenFor(model => model.IdAnimal)
 
     <div class="card">
         <div class="card-header text-white h3 text-center text-white" style="background: #FF830F;">Editar Animal</div><br />

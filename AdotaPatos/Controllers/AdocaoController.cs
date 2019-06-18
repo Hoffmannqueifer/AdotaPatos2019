@@ -12,7 +12,7 @@ namespace AdotaPatos.Controllers
     {
 
         AdocaoDAO adocaoDAO = new AdocaoDAO();
-
+        AnimalDAO animalDAO = new AnimalDAO();
 
         // GET: Adocao
         public ActionResult Index(string nome)
@@ -29,6 +29,10 @@ namespace AdotaPatos.Controllers
 
         public ActionResult Create()
         {
+            ViewBag.Animal = new SelectList(animalDAO.Listar().OrderBy(b => b.NomeAnimal), "IdAnimal", "NomeAnimal");
+            ViewBag.Animal1 = new SelectList(animalDAO.Listar().OrderBy(b => b.Raca), "IdAnimal", "Raca");
+            ViewBag.Animal2 = new SelectList(animalDAO.Listar().OrderBy(b => b.TipoAnimal), "IdAnimal", "TipoAnimal");
+
             return View();
         }
 
@@ -36,6 +40,7 @@ namespace AdotaPatos.Controllers
         [HttpPost]
         public ActionResult Create(Adocao adocao)
         {
+
             if (!ModelState.IsValid)
             {
                 return View(adocao);

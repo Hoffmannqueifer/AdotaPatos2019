@@ -8,7 +8,7 @@ namespace AdotaPatos.Models
 {
     public class Animal
     {
-        public long AnimalId { get; set; }
+        public long IdAnimal { get; set; }
 
         [Display(Name = "Nome do Animal")]
         public string NomeAnimal { get; set; }

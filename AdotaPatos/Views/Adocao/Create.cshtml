@@ -112,6 +112,24 @@
                     <input type="text" class="form-control" id="Cidade" name="Cidade">
                 </div>
 
+                <div class="form-group col-md-4">
+                    <strong><label control-label">Animal</label> </strong>
+                    @Html.DropDownListFor(model => model.AnimalId, ViewBag.Animal as SelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.AnimalId, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <strong><label control-label">Raça</label> </strong>
+                    @Html.DropDownListFor(model => model.AnimalId, ViewBag.Animal1 as SelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.AnimalId, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group col-md-4">
+                    <strong><label control-label">Tipo Animal</label> </strong>
+                    @Html.DropDownListFor(model => model.AnimalId, ViewBag.Animal2 as SelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.AnimalId, "", new { @class = "text-danger" })
+                </div>
+
             </div>
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10" style="padding: 20px; margin-left: 30px">

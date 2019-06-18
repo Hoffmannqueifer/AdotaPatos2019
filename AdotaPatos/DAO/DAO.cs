@@ -9,7 +9,7 @@ namespace AdotaPatos.DAO {
 
         public static MySqlConnection GetMySqlConnection(bool open = true,
            bool convertZeroDatetime = false, bool allowZeroDatetime = false) {
-            string cs = "Server=127.0.0.1;Database=projeto_ong_adota;Uid=root;Pwd=mysql23";
+            string cs = "Server=127.0.0.1;Database=projeto_ong_adota;Uid=root;Pwd=1234567";
             var csb = new MySqlConnectionStringBuilder(cs) {
                 AllowZeroDateTime = allowZeroDatetime,
                 ConvertZeroDateTime = convertZeroDatetime
