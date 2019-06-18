@@ -13,7 +13,7 @@ namespace AdotaPatos.DAO
         {
             using (var sqlConnection = GetMySqlConnection())
             {
-                var query = @"insert into animal (AnimalId, NomeAnimal, TipoAnimal, NomeVoluntario, LarTemporario, DataResgate, Sexo, Raca, Idade, TipoCastrado, ImagemAntes, ImagemDepois, Descricao)values(@AnimalId, @NomeAnimal, @TipoAnimal, @NomeVoluntario, @LarTemporario, @DataResgate, @Sexo, @Raca, @Idade, @TipoCastrado, @ImagemAntes, @ImagemDepois, @Descricao)";
+                var query = @"insert into animal (IdAnimal, NomeAnimal, TipoAnimal, NomeVoluntario, LarTemporario, DataResgate, Sexo, Raca, Idade, TipoCastrado, ImagemAntes, ImagemDepois, Descricao)values(@IdAnimal, @NomeAnimal, @TipoAnimal, @NomeVoluntario, @LarTemporario, @DataResgate, @Sexo, @Raca, @Idade, @TipoCastrado, @ImagemAntes, @ImagemDepois, @Descricao)";
                 sqlConnection.Execute(query, animal);
             }
         }
@@ -22,7 +22,7 @@ namespace AdotaPatos.DAO
         {
             using (var sqlConnection = GetMySqlConnection())
             {
-                return sqlConnection.Query<Animal>(@"select AnimalId, TipoAnimal, NomeAnimal, NomeVoluntario, TipoCastrado, DataResgate from animal");
+                return sqlConnection.Query<Animal>(@"select IdAnimal, TipoAnimal, NomeAnimal, NomeVoluntario, TipoCastrado, DataResgate, Raca from animal");
             }
         }
 
@@ -30,7 +30,7 @@ namespace AdotaPatos.DAO
         {
             using (var sqlConnection = GetMySqlConnection())
             {
-                return sqlConnection.Query<Animal>(@"select AnimalId, NomeAnimal, TipoAnimal, NomeVoluntario, LarTemporario, DataResgate, Sexo, Raca, Idade, TipoCastrado, ImagemAntes, ImagemDepois, Descricao from animal where AnimalId = @animalId", new { AnimalId = id }).First();
+                return sqlConnection.Query<Animal>(@"select IdAnimal, NomeAnimal, TipoAnimal, NomeVoluntario, LarTemporario, DataResgate, Sexo, Raca, Idade, TipoCastrado, ImagemAntes, ImagemDepois, Descricao from animal where AnimalId = @animalId", new { AnimalId = id }).First();
             }
         }
 
@@ -38,7 +38,7 @@ namespace AdotaPatos.DAO
         {
             using (var sqlConnection = GetMySqlConnection())
             {
-                var query = @"delete from animal where AnimalId = @AnimalId";
+                var query = @"delete from animal where IdAnimal = @IdAnimal";
                 sqlConnection.Execute(query, new { AnimalId = id });
             }
         }
@@ -47,7 +47,7 @@ namespace AdotaPatos.DAO
         {
             using (var sqlConnection = GetMySqlConnection())
             {
-                var query = @"update animal set NomeAnimal = @NomeAnimal, TipoAnimal = @TipoAnimal, NomeVoluntario = @NomeVoluntario, LarTemporario = @LarTemporario, DataResgate = @DataResgate, Sexo = @sexo, Raca = @Raca, Idade = @Idade, TipoCastrado = @TipoCastrado, ImagemAntes = @ImagemAntes, ImagemDepois = @ImagemDepois, Descricao = @Descricao where AnimalId = @AnimalId";
+                var query = @"update animal set NomeAnimal = @NomeAnimal, TipoAnimal = @TipoAnimal, NomeVoluntario = @NomeVoluntario, LarTemporario = @LarTemporario, DataResgate = @DataResgate, Sexo = @sexo, Raca = @Raca, Idade = @Idade, TipoCastrado = @TipoCastrado, ImagemAntes = @ImagemAntes, ImagemDepois = @ImagemDepois, Descricao = @Descricao where IdAnimal = @IdAnimal";
                 sqlConnection.Execute(query, animal);
             }
         }
@@ -57,7 +57,7 @@ namespace AdotaPatos.DAO
 
             using (var sqlConnection = GetMySqlConnection())
             {
-                return sqlConnection.Query<Animal>("select AnimalId, TipoAnimal, NomeAnimal, NomeVoluntario, TipoCastrado, DataResgate from animal where NomeAnimal like " +
+                return sqlConnection.Query<Animal>("select IdAnimal, TipoAnimal, NomeAnimal, NomeVoluntario, TipoCastrado, DataResgate from animal where NomeAnimal like " +
                     "@nomeAnimal", new { NomeAnimal = pesquisa + "%" });
 
             }

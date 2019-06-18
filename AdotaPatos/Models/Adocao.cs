@@ -10,6 +10,9 @@ namespace AdotaPatos.Models
     {
         public long Id { get; set; }
 
+        [Display(Name = "ClienteId")]
+        public long AnimalId { get; set; }
+
         [Display(Name = "Nome do Adotante")]
         [Required(ErrorMessage = "* Campo Obrigatório!")]
         public string NomeDoAdotante { get; set; }

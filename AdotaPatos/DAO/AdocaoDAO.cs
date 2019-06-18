@@ -14,7 +14,7 @@ namespace AdotaPatos.DAO
         {
             using (var sqlConnection = GetMySqlConnection())
             {
-                var query = @"insert into adocao (Id, NomeDoAdotante, RgAdotante, CpfAdotante, DataAdocao, Telefone, Profissao, Logradouro, numero, Estado, Cidade)values(@Id, @NomeDoAdotante, @RgAdotante, @CpfAdotante, @DataAdocao, @Telefone, @Profissao, @Logradouro, @numero, @Estado, @Cidade)";
+                var query = @"insert into adocao (Id, AnimalId, NomeDoAdotante, RgAdotante, CpfAdotante, DataAdocao, Telefone, Profissao, Logradouro, numero, Estado, Cidade)values(@Id, @AnimalId, @NomeDoAdotante, @RgAdotante, @CpfAdotante, @DataAdocao, @Telefone, @Profissao, @Logradouro, @numero, @Estado, @Cidade)";
                 sqlConnection.Execute(query, adocao);
             }
         }
